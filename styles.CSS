@@ -1,0 +1,70 @@
+nav {
+display: inline;
+
+font-family: Arial,Helvetica,san-serif;
+}
+nav ul{
+list-style: none;
+margin: 0;
+padding: 0;
+background-color: gray;
+border: 1px solid #555;
+
+}
+nav li a{
+display:block;
+width: 160px;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+border: 1px solid #555;
+}
+
+li a:link,nav li a:visited {
+	color: black;
+	background-color: transparent;
+	font-style: italic;
+	
+}
+nav li a:hover{
+color: white;
+background-color: #555;
+}
+
+nav li {
+float: left;
+text-align: center;
+border-right: 1px solid #555; /*places border between blocks*/
+}
+
+/*shows which link you are using*/
+.active{
+background-color: #4caf50;
+}
+
+#contact{
+float: right;
+}
+
+h1{
+color: blue;
+
+}
+.photos{
+justify-content: centre;
+}
+
+body{
+background-color: white;
+background-image: url(images/bGround.jpg);
+background-repeat: no-repeat;
+background-size: 1300px 300px;
+
+}
+.location{
+padding-bottom: 145px;
+}
+
+.bargara{
+padding-bottom: 75px;
+}
