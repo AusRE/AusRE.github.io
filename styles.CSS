@@ -58,13 +58,22 @@ body{
 background-color: white;
 background-image: url(images/bGround.jpg);
 background-repeat: no-repeat;
-background-size: 1300px 300px;
+background-size: 1350px 300px;
 
 }
+
+.home{
+padding-bottom: 52px;
+}
+
+.contact{
+padding-bottom: 220px;
+}
+
 .location{
 padding-bottom: 145px;
 }
 
 .bargara{
-padding-bottom: 75px;
+padding-bottom: 90px;
 }
